@@ -4,8 +4,8 @@ import google.generativeai as genai
 import io
 
 
-st.set_page_config(page_title="Multi-Agent Dataset Creator", layout="wide")
-st.title("📊 AI-Powered Multi-Agent Dataset Generator")
+st.set_page_config(page_title="Multi-Agent Test Creator", layout="wide")
+st.title("📊 AI-Powered Multi-Agent Test Generator")
 
 genai.configure(api_key=st.secrets.get("GEMINI_API_KEY", "YOUR_GEMINI_API_KEY_HERE"))
 
